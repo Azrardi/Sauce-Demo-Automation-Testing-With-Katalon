@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-12/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-12/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-12/Page_Swag Labs/button_ADD TO CART",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[3]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-12/Page_Swag Labs/button_ADD TO CART_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-08/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-08/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-08/Page_Swag Labs/select_Name (A to Z)Name (Z to",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_filter_container\u0027]/select",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Products\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-08/Page_Swag Labs/select_Name (A to Z)Name (Z to_neighbor.png"
+    }
+  ]
+}
