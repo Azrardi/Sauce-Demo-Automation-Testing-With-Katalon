@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC_Login/TC-01 Input valid Username and valid Password","testCaseId":"Test Cases/TC_Login/TC-01 Input valid Username and valid Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Login/TC-02 Input valid Username and invalid Password","testCaseId":"Test Cases/TC_Login/TC-02 Input valid Username and invalid Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Login/TC-03 Input invalid Username and valid Password","testCaseId":"Test Cases/TC_Login/TC-03 Input invalid Username and valid Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC_Login/TC-04 Input invalid Username and invalid Password","testCaseId":"Test Cases/TC_Login/TC-04 Input invalid Username and invalid Password","iterationVariableName":""}

@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-01/TC-01/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220810_014647/TCS_login/20220810_014647/Object Repository/Login/TC-01/TC-01/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220810_014647/TCS_login/20220810_014647/Object Repository/Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220810_014647/TCS_login/20220810_014647/Object Repository/Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__16",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220810_014647/TCS_login/20220810_014647/Object Repository/Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__16_neighbor.png"
+    }
+  ]
+}

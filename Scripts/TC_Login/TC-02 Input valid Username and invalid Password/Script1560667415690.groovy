@@ -17,15 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Login/TC-02/Page_Swag Labs/input_standard_userlocked_out_'), 
-    'standard_user')
+WebUI.setText(findTestObject('Login/TC-02/Page_Swag Labs/input_standard_userlocked_out_'), 'standard_user')
 
-WebUI.setText(findTestObject('Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__1'), 
-    'abcdefh')
+WebUI.setText(findTestObject('Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__1'), 'abcdefh')
 
 WebUI.click(findTestObject('Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8'))
 
-WebUI.verifyElementPresent(findTestObject('Login/TC-02/Page_Swag Labs/h3_Epic sadface Username and p'), 
+WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/h3_Epic sadface Username and password do not match any user in this service'), 
     0)
 
 WebUI.closeBrowser()

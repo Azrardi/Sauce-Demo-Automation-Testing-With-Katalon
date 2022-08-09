@@ -39,6 +39,206 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-08/Page_Swag Labs/select_Name (A to Z)Name (Z to_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-01/TC-01/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/TC-01/TC-01/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-23/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-23/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-23/a_CHECKOUT",
+      "brokenLocator": "//div[@id\u003d\u0027cart_contents_container\u0027]/div/div[2]/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Twitter\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-23/a_CHECKOUT_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__16",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__16_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-05/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-05/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-05/Page_Swag Labs/button_Open Menu",
+      "brokenLocator": "//div[@id\u003d\u0027menu_button_container\u0027]/div/div[3]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Close Menu\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-05/Page_Swag Labs/button_Open Menu_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-06/Page_Swag Labs/input_standard_userlocked_out__3 (1)",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-06/Page_Swag Labs/input_standard_userlocked_out__3 (1)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-07/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Product List/TC-07/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Product List/TC-07/Page_Swag Labs/button_- Back",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_item_container\u0027]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Open Menu\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-13/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-13/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-13/Page_Swag Labs/button_ADD TO CART",
+      "brokenLocator": "//div[@id\u003d\u0027inventory_container\u0027]/div/div/div[3]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027$29.99\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-13/Page_Swag Labs/button_ADD TO CART_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-14/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-14/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-17/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-17/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout",
+      "brokenLocator": "//button[@id\u003d\u0027checkout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Remove\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Swag Labs/Page_Swag Labs/button_Checkout_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-17/Page_Swag Labs/input_CANCEL_btn_primary cart_",
+      "brokenLocator": "//input[@value\u003d\u0027CONTINUE\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027checkout_info_container\u0027]/div/form/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-17/Page_Swag Labs/input_CANCEL_btn_primary cart__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-18/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-18/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-18/Page_Swag Labs/input_CANCEL_btn_primary cart_",
+      "brokenLocator": "//input[@value\u003d\u0027CONTINUE\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027checkout_info_container\u0027]/div/form/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-18/Page_Swag Labs/input_CANCEL_btn_primary cart__idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkout/TC-19/Page_Swag Labs/input_standard_userlocked_out__3",
+      "brokenLocator": "//input[@value\u003d\u0027LOGIN\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Accepted usernames are:\u0027])[1]/preceding::input[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Checkout/TC-19/Page_Swag Labs/input_standard_userlocked_out__3_neighbor.png"
     }
   ]
 }

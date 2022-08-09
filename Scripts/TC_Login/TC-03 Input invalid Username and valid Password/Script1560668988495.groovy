@@ -23,7 +23,8 @@ WebUI.setEncryptedText(findTestObject('Login/TC-03/Page_Swag Labs/input_standard
 
 WebUI.click(findTestObject('Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3'))
 
-WebUI.verifyElementPresent(findTestObject('TC-11/h3_Epic sadface Username and p'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/h3_Epic sadface Username and password do not match any user in this service'), 
+    0)
 
 WebUI.closeBrowser()
 

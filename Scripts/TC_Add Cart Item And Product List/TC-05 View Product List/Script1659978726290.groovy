@@ -23,7 +23,7 @@ WebUI.setEncryptedText(findTestObject('Product List/TC-05/Page_Swag Labs/input_s
 
 WebUI.click(findTestObject('Product List/TC-05/Page_Swag Labs/input_standard_userlocked_out__3'))
 
-WebUI.click(findTestObject('Product List/TC-05/Page_Swag Labs/button_Open Menu'))
+WebUI.click(findTestObject('Page_Swag Labs/button_Open Menu'))
 
 WebUI.click(findTestObject('Product List/TC-05/Page_Swag Labs/a_All Items'))
 

@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Product List/TC-07/Page_Swag Labs/div_Sauce Labs Bac
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Product List/TC-07/Page_Swag Labs/button_- Back'))
+WebUI.click(findTestObject('Page_Swag Labs/button_Back to products'))
 
 WebUI.waitForPageLoad(0)
 

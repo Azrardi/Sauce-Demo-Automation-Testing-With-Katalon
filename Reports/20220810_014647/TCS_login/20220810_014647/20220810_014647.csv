@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TCS_login,Chrome 103.0.5060.134,,,2022-08-10 01:46:49,2022-08-10 01:58:51,12m - 1.891s,FAILED
+,,,,,,,
+Test Cases/TC_Login/TC-01 Input valid Username and valid Password,Chrome 103.0.5060.134,,,2022-08-10 01:46:50,2022-08-10 01:47:29,39.057s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-10 01:46:50,2022-08-10 01:46:52,2.171s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 103.0.5060.134,,,2022-08-10 01:46:52,2022-08-10 01:46:53,0.548s,PASSED
+"setText(findTestObject(""Login/TC-01/TC-01/input_standard_userlocked_out_""), ""standard_user"")",Chrome 103.0.5060.134,,,2022-08-10 01:46:53,2022-08-10 01:46:53,0.838s,PASSED
+"setEncryptedText(findTestObject(""Login/TC-01/TC-01/input_standard_userlocked_out__1""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 103.0.5060.134,,,2022-08-10 01:46:53,2022-08-10 01:46:54,0.434s,PASSED
+"click(findTestObject(""Login/TC-01/TC-01/input_standard_userlocked_out__3""))",Chrome 103.0.5060.134,,,2022-08-10 01:46:54,2022-08-10 01:47:25,31.629s,PASSED
+"openBrowser(""https://www.saucedemo.com/inventory.html"")",Chrome 103.0.5060.134,,,2022-08-10 01:47:25,2022-08-10 01:47:28,2.476s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-10 01:47:28,2022-08-10 01:47:29,0.656s,PASSED
+,,,,,,,
+Test Cases/TC_Login/TC-02 Input valid Username and invalid Password,Chrome 103.0.5060.134,,,2022-08-10 01:50:51,2022-08-10 01:51:58,1m - 6.889s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-10 01:50:51,2022-08-10 01:50:53,1.909s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 103.0.5060.134,,,2022-08-10 01:50:53,2022-08-10 01:50:54,0.627s,PASSED
+"setText(findTestObject(""Login/TC-02/Page_Swag Labs/input_standard_userlocked_out_""), ""standard_user"")",Chrome 103.0.5060.134,,,2022-08-10 01:50:54,2022-08-10 01:50:55,0.797s,PASSED
+"setText(findTestObject(""Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__1""), ""abcdefh"")",Chrome 103.0.5060.134,,,2022-08-10 01:50:55,2022-08-10 01:50:55,0.636s,PASSED
+"click(findTestObject(""Login/TC-02/Page_Swag Labs/input_standard_userlocked_out__8""))",Chrome 103.0.5060.134,,,2022-08-10 01:50:55,2022-08-10 01:51:27,31.420s,PASSED
+"verifyElementPresent(findTestObject(""Login/TC-02/Page_Swag Labs/h3_Epic sadface Username and p""), 0)",Chrome 103.0.5060.134,,,2022-08-10 01:51:27,2022-08-10 01:51:58,31.494s,FAILED
+,,,,,,,
+Test Cases/TC_Login/TC-03 Input invalid Username and valid Password,Chrome 103.0.5060.134,,,2022-08-10 01:53:45,2022-08-10 01:54:21,35.498s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-10 01:53:45,2022-08-10 01:53:47,1.937s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 103.0.5060.134,,,2022-08-10 01:53:47,2022-08-10 01:53:48,0.552s,PASSED
+"setText(findTestObject(""Login/TC-03/Page_Swag Labs/input_standard_userlocked_out_""), ""asdrtfg"")",Chrome 103.0.5060.134,,,2022-08-10 01:53:48,2022-08-10 01:53:49,0.845s,PASSED
+"setEncryptedText(findTestObject(""Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__1""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 103.0.5060.134,,,2022-08-10 01:53:49,2022-08-10 01:53:49,0.428s,PASSED
+"click(findTestObject(""Login/TC-03/Page_Swag Labs/input_standard_userlocked_out__3""))",Chrome 103.0.5060.134,,,2022-08-10 01:53:49,2022-08-10 01:54:21,31.592s,PASSED
+"verifyElementPresent(findTestObject(""TC-11/h3_Epic sadface Username and p""), 0)",Chrome 103.0.5060.134,,,2022-08-10 01:54:21,2022-08-10 01:54:21,0.135s,FAILED
+,,,,,,,
+Test Cases/TC_Login/TC-04 Input invalid Username and invalid Password,Chrome 103.0.5060.134,,,2022-08-10 01:57:44,2022-08-10 01:58:51,1m - 6.987s,FAILED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-08-10 01:57:44,2022-08-10 01:57:46,1.860s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 103.0.5060.134,,,2022-08-10 01:57:46,2022-08-10 01:57:47,0.579s,PASSED
+"setText(findTestObject(""Login/TC-04/Page_Swag Labs/input_standard_userlocked_out_""), ""Dummy"")",Chrome 103.0.5060.134,,,2022-08-10 01:57:47,2022-08-10 01:57:47,0.791s,PASSED
+"setText(findTestObject(""Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__1""), ""Dummy_invalid"")",Chrome 103.0.5060.134,,,2022-08-10 01:57:47,2022-08-10 01:57:48,0.811s,PASSED
+"click(findTestObject(""Login/TC-04/Page_Swag Labs/input_standard_userlocked_out__16""))",Chrome 103.0.5060.134,,,2022-08-10 01:57:48,2022-08-10 01:58:20,31.569s,PASSED
+"verifyElementPresent(findTestObject(""Login/TC-04/Page_Swag Labs/h3_Epic sadface Username and p""), 0)",Chrome 103.0.5060.134,,,2022-08-10 01:58:20,2022-08-10 01:58:51,31.370s,FAILED

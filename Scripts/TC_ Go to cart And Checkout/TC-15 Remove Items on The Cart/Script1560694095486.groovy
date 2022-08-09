@@ -23,9 +23,9 @@ WebUI.setEncryptedText(findTestObject('Checkout/TC-15/Page_Swag Labs/input_stand
 
 WebUI.click(findTestObject('Checkout/TC-15/Page_Swag Labs/input_standard_userlocked_out__3'))
 
-WebUI.click(findTestObject('Checkout/TC-15/Page_Swag Labs/button_ADD TO CART'))
+WebUI.click(findTestObject('Page_Swag Labs/button_Add to cart'))
 
-WebUI.click(findTestObject('Checkout/TC-15/Page_Swag Labs/button_REMOVE'))
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Remove'))
 
 WebUI.closeBrowser()
 

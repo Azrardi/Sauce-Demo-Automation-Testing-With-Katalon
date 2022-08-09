@@ -23,19 +23,23 @@ WebUI.setEncryptedText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_stand
 
 WebUI.click(findTestObject('Checkout/TC-19/Page_Swag Labs/input_standard_userlocked_out__3'))
 
-WebUI.click(findTestObject('Checkout/TC-19/Page_Swag Labs/button_ADD TO CART'))
+WebUI.click(findTestObject('Page_Swag Labs/button_Add to cart'))
 
-WebUI.click(findTestObject('Checkout/TC-19/Page_Swag Labs/a_CHECKOUT'))
+WebUI.click(findTestObject('Page_Swag Labs/a_1'))
 
-WebUI.setText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_Checkout Your Informatio'), 'Riri')
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Checkout'))
 
-WebUI.setText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_Checkout Your Informatio_6'), 'Marsha')
+WebUI.setText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_Checkout Your Informatio'), 'M Azzumardi')
+
+WebUI.setText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_Checkout Your Informatio_6'), 'Azra')
 
 WebUI.setText(findTestObject('Checkout/TC-19/Page_Swag Labs/input_Checkout Your Informatio_13'), '1234fd')
 
-WebUI.click(findTestObject('Checkout/TC-19/Page_Swag Labs/input_CANCEL_btn_primary cart_'))
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/input_Cancel_continue'))
 
-WebUI.click(findTestObject('Checkout/TC-19/Page_Swag Labs/a_FINISH'))
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/button_Finish'))
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 
